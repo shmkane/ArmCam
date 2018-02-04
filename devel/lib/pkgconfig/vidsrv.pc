@@ -1,0 +1,8 @@
+prefix=/home/shmkane/Desktop/catkin_ws/devel
+
+Name: vidsrv
+Description: Description of vidsrv
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shmkane/Desktop/catkin_ws/devel/lib 
+Requires: 

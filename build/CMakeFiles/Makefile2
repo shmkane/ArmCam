@@ -303,6 +303,518 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory vidsrv
+
+# Convenience name for "all" pass in the directory.
+vidsrv/all:
+
+.PHONY : vidsrv/all
+
+# Convenience name for "clean" pass in the directory.
+vidsrv/clean: vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+vidsrv/clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : vidsrv/clean
+
+# Convenience name for "preinstall" pass in the directory.
+vidsrv/preinstall:
+
+.PHONY : vidsrv/preinstall
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_eus: vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+
+.PHONY : std_msgs_generate_messages_eus
+
+# clean rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# clean rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# clean rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# clean rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/build.make vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shmkane/Desktop/catkin_ws/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shmkane/Desktop/catkin_ws/build/CMakeFiles 0
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: vidsrv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
