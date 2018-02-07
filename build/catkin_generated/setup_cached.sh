@@ -11,5 +11,6 @@ export CMAKE_PREFIX_PATH="/home/shmkane/Desktop/catkin_ws/devel:$CMAKE_PREFIX_PA
 export LD_LIBRARY_PATH="/home/shmkane/Desktop/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/shmkane/Desktop/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/shmkane/Desktop/catkin_ws/build"
+export PYTHONPATH="/home/shmkane/Desktop/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/shmkane/Desktop/catkin_ws/devel/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/shmkane/Desktop/catkin_ws/src:$ROS_PACKAGE_PATH"
