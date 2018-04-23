@@ -1,0 +1,6 @@
+[submodule "src/apriltags_ros"]
+	path = src/apriltags_ros
+	url = https://github.com/BCLab-UNM/apriltags_ros
+[submodule "src/usb_cam"]
+	path = src/usb_cam
+	url = https://github.com/ros-drivers/usb_cam
