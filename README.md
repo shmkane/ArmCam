@@ -1,2 +1,0 @@
-# ROS
-# Apriltag Detection Node
